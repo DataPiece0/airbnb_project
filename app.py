@@ -4,6 +4,8 @@ from PIL import Image
 
 st.set_page_config(layout='wide',   page_icon='airbnblogo.png', page_title='New York')
 
+st.write('please use light mode for a better view')
+
 title='''
 <h1 style="color:black">AirBNB in New York</h1>
 '''
