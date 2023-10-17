@@ -74,7 +74,7 @@ st.markdown(howWeDidIT, unsafe_allow_html=True)
 
 # canva pic that shows the process
 processImage = Image.open('projectProcess.png')
-st.image(processImage, width=1200)
+st.image(processImage, width=480)
 
 # links and socials
 sociallinks = '''
