@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 from PIL import Image
 
 # setting the page's title, and logo
-st.set_page_config(layout='wide',   page_icon='airbnblogo.png', page_title='New York')
+st.set_page_config(layout='wide',   page_icon='transparet logo.png', page_title='New York')
 
 # telling dark mode users to switch to light mode for a  better view
 aNoteForDarkModeUsers = '<p style="color:white">please use light mode for a better view</p>'
@@ -11,9 +11,11 @@ st.markdown(aNoteForDarkModeUsers, unsafe_allow_html=True)
 
 # a header of the page
 title='''<h1 style="color:black">AirBNB in New York</h1>'''
-image = Image.open('airbnb.png')
+image1 = Image.open('airbnb.png')
 st.markdown(title, unsafe_allow_html=True)
-st.image(image, width=200)
+st.image(image1, width=200)
+image2 = Image.open('logo_datapiece-removebg-preview.png')
+st.image(image2, width=200)
 
 descriptionOfProject ='''
 <p style="color:black">
@@ -38,7 +40,7 @@ mapLink = '''
 '''
 
 howToUseTheDashboard = '''
-<p style="color:black">you can use the dashboard by chosing a neighbourhood group from the drop-down list, and then filter what kind of
+<p style="color:black">You can use the dashboard by chosing a neighbourhood group from the drop-down list, and then filter what kind of
 BnBs you would like to see, you could for example pick the neighbourhood group Bronx and then filter the BnBs depending on the rating and cancellation
 policy to see the names of BnBs that are suitable for your filtering.</p>
 '''
@@ -72,7 +74,7 @@ st.markdown(howWeDidIT, unsafe_allow_html=True)
 
 # links and socials
 sociallinks = '''
-    <p> Follow us on 
+    <p> Follow us! 
         <a href="https://github.com/DataPiece0">GitHub</a> |
         <a href="https://www.linkedin.com/in/zaid-allwansah-a09412227/">Zaid Hani</a> |
         <a href="https://www.linkedin.com/in/mohammad-aljermy-139b6b24a/">Mohammad Aljermy</a> |
